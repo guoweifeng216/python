@@ -1,0 +1,5 @@
+Business,200521,358293
+Computer and info. science,15121,39589
+Education,108074,101265
+Engineering,63642,72654
+Social sciences and history,100513,172780

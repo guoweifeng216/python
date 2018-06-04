@@ -1,0 +1,25 @@
+Fort Worth,30.2
+Charlotte,25.9
+Phoenix,18.9
+San Antonio,18.4
+Houston,14.9
+Austin,13.6
+Jacksonville,10.8
+Nashville-Davidson,9.1
+El Paso,8.9
+Seattle,7.1
+Columbus,7.0
+San Jose,6.7
+Los Angeles,5.3
+San Diego,4.9
+Memphis,4.6
+Dallas,4.2
+Indianapolis,3.8
+Boston,3.4
+﻿New York,3.2
+Milwaukee,1.7
+Baltimore,0.0
+Chicago,-1.0
+San Francisco,-1.3
+Detroit,-2.1
+Philadelphia,-3.3

@@ -1,0 +1,10 @@
+import turtle
+t = turtle.Turtle()
+t.pencolor("purple")
+t.hideturtle()
+t.up()
+t.goto(25, 55)
+t.dot(5)
+t.down()
+t.goto(80,40)
+t.dot(5)

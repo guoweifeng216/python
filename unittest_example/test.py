@@ -36,13 +36,13 @@ class TestSub(MyTest):
 
 if __name__ == '__main__':
     # 构造测试集
-    # suite = unittest.TestSuite()
-    # suite.addTest(TestAdd("test_add"))
-    # suite.addTest(TestAdd("test_add2"))
-    # suite.addTest(TestSub("test_sub"))
-    # suite.addTest(TestSub("test_sub2"))
-    #
-    # #运行测试集合
-    # runner = unittest.TextTestRunner()
-    # runner.run(suite)
+    suite = unittest.TestSuite()
+    suite.addTest(TestAdd("test_add"))
+    suite.addTest(TestAdd("test_add2"))
+    suite.addTest(TestSub("test_sub"))
+    suite.addTest(TestSub("test_sub2"))
+
+    #运行测试集合
+    runner = unittest.TextTestRunner()
+    runner.run(suite)
     unittest.main()

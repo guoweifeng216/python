@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import re
 
-soup = BeautifulSoup(open('loremIpsum.html'))
+soup = BeautifulSoup(open('loremIpsum.html_note'))
 
 print "First div\n", soup.div
 print "First div class", soup.div['class']

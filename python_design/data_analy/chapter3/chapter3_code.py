@@ -498,7 +498,7 @@ def remove_spider_data(single_log):
         'Yahoo! Slurp',
         'YisouSpider',
         'YodaoBot',
-        'bot.html'
+        'bot.html_note'
     ]
     count = 0  # 初始计数用于计算日志中是否包含爬虫
     for spider in exclude_set:  # 循环读取每个爬虫

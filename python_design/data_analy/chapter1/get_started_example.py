@@ -43,15 +43,15 @@ plt.scatter(x, y)
 plt.show()
 
 # 数据建模
-model = linear_model.LinearRegression()
-model.fit(x, y)
+# model = linear_model.LinearRegression()
+# model.fit(x, y)
 
 # 模型评估
-model_coef = model.coef_
-model_intercept = model.intercept_
-r2 = model.score(x, y)
+# model_coef = model.coef_
+# model_intercept = model.intercept_
+# r2 = model.score(x, y)
 
 # 销售预测
 new_x = 84610
-pre_y = model.predict(new_x)
-print (pre_y)
+# pre_y = model.predict(new_x)
+# print (pre_y)

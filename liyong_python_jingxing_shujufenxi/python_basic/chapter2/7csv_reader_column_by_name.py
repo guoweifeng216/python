@@ -11,7 +11,7 @@ import sys
 import csv
 input_file = sys.argv[1]
 output_file = sys.argv[2]
-my_columns = ['Invoice Number', 'Purchase Date']
+my_columns = ['Invoice Number', 'Parchase Date']
 my_columns_index = []
 with open(input_file, 'r', newline='') as csv_in_file:
     with open(output_file, 'w', newline='') as csv_out_file:
@@ -26,4 +26,4 @@ with open(input_file, 'r', newline='') as csv_in_file:
             row_list_out = []
             for index_value in my_columns_index:
                 row_list_out.append(row_list[index_value])
-                filewrite.writerow(row_list_out)
+            filewrite.writerow(row_list_out)

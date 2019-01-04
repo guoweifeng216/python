@@ -21,4 +21,4 @@ with open(input_file, 'r', newline='') as csv_in_file:
             row_list_out = []
             for index_value in my_columns:
                 row_list_out.append(row_list[index_value])
-                filewrite.writerow(row_list_out)
+            filewrite.writerow(row_list_out)

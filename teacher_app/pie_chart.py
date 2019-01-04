@@ -53,7 +53,7 @@ import pandas as pd
 #         dict[j] = sum
 #         print(dict)
 
-df = pd.DataFrame(pd.read_excel('地理学生成绩.xls'))
+df = pd.DataFrame(pd.read_excel('dili.xls'))
 # 查看数据表的维度
 print(df.shape)
 

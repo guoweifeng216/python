@@ -4,15 +4,16 @@
 
 @athor:weifeng.guo 
 @data:2019/1/8 14:50
-@filename:pandas_value_meets_condition_set_of_worksheets
-
+@filename:pandas_value_meets_condition_set_of_worksheet
+在这个示例中，我们创建一个索引值列表 my_
+sheets，然后在 read_excel 函数中设定 sheetname 等于 my_sheets。
 """
 import pandas as pd
 import sys
 input_file = sys.argv[1]
 output_file = sys.argv[2]
 my_sheets = [0, 2]
-threshold = 1500.0
+threshold = 1900.0
 data_frame = pd.read_excel(input_file, sheetname=my_sheets, index_col=None)
 row_list = []
 for worksheet_name, data in data_frame.items():

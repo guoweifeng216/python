@@ -10,7 +10,6 @@
 import unittest
 from chapter16 import my_math
 
-
 class test_integer(unittest.TestCase):
 
     def test_integers(self):
@@ -26,3 +25,6 @@ class test_integer(unittest.TestCase):
                 y = y / 10
                 p = my_math.product(x, y)
                 self.assertEqual(p, x * y, 'Floats multiplication failed')
+
+if __name__ == '__main__':
+    unittest.main()

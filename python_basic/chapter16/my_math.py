@@ -11,3 +11,10 @@
 
 def product(x, y):
     return x * y
+
+
+if __name__ == '__main__':
+    import doctest
+    import my_math
+    import unittest
+    doctest.testmod(my_math)

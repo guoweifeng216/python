@@ -6,17 +6,18 @@ if __name__ == '__main__':
     host = socket.gethostname()
     sock.bind((host, 8001))
     sock.listen(5)
-    print host
+    print(host)
     while True:
         connection,address = sock.accept()
         try:
             connection.settimeout(5)
             buf = connection.recv(1024)
-            if buf == '1':
-                connection.send('welcome to server!')
+            print(buf)
+            if buf == b'1':
+                connection.send('welcome to server!'.encode())
             else:
-                connection.send('please go out!')
+                connection.send('please go out!'.encode())
         except socket.timeout:
-            print 'time out'
+            print( 'time out')
 
         connection.close()

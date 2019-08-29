@@ -8,7 +8,7 @@
 
 """
 import sys,re
-from chapter20.util import *
+from util import *
 
 print('<html><head><title>...</title><body>')
 title = True
